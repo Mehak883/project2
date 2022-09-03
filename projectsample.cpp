@@ -356,6 +356,19 @@ int main()
                 }
             }
             tic = 'O';
+              if (flag == 0 && flag1 == 0 && flag3 == 0 && flag4 == 0)
+            {
+                for (i = 0; i < 3; i++)
+                {
+                    for (j = 0; j < 3; j++)
+                    {
+                        if (n == a[i][j])
+                        {
+                            a[i][j] = tic;
+                        }
+                    }
+                }
+            }
             if (flag1 == 1 && flag == 1)
             {
                 for (i = 0; i < 3; i++)
